@@ -14,7 +14,7 @@ public class PessoaEleitora extends Pessoa {
    * @param cpf  the cpf
    */
   public PessoaEleitora(String nome, String cpf) {
-    this.nome = nome;
+    super.setNome(nome);
     this.cpf = cpf;
   }
 
